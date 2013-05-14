@@ -1,4 +1,14 @@
 # encoding: UTF-8
+# 用于自动化格式化 css 代码
+# 该脚本只用于对格式的format，不对里面的属性顺序做修改
+# 使用方式 python ./css_format.py
+# 使用前：格式比较乱，排列不整齐
+#		.search_tip_box { 
+#			width: 450px;
+#				min-height: 60px; _height: 60px; 
+#			}
+# 使用后：
+#   .search_tip_box { width: 450px; min-height: 60px; _height: 60px; }
 import re
 import sys
 
