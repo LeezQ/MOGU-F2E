@@ -45,15 +45,6 @@
 * 了解和使用一个东西前，先去它的官网，通过阅读它的文档，了解它。
 
 
-1、无法找到 grunt 命令
-	why? 可以多个 grunt 版本
-2、无法找到 Gruntfile 文件
-3、grunt js 文件太多，需要放到一个公共地方
-	1）如何创建 concat、min任务
-	2）如何区分多个 concat 任务
-	first: google，
-	then：doc
-4、gruntfile 无法加载相对路径的 node_modules
 
 
 
